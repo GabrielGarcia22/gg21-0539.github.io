@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Introduccion al web scraping: que es, herramienta y uso">
+    <meta name="keywords" content="web scraping, scraping, automatizacion, datos">
+    <meta name="author" content="Gabriel Garcia">
+    <title>ScrapingWeb</title>
+    <link rel="icon" type="image/x-icon" href="imagenes/Icono/Icon.webp">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navbar fixed-top" data-bs-theme="dark">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">ScrapingWeb</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Enlaces/enlaceDos.html" target="_blank">Segundo enlace</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Enlaces/enlaceTres.html" target="_blank">Tercer enlace</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Disabled</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="h1_Container">
+        <h1>Que es el scraping?</h1>
+    </div>
+    <div class="scrapingContainer container-sm">
+        <img src="imagenes/Scraping.webp" alt="Que es el scraping" title="Que es el scraping" class="img img-fluid">
+        <p>El <strong>web scraping</strong> es una técnica que permite extraer información de sitios web de manera automatizada. Consiste en utilizar programas o scripts para navegar por páginas web y recopilar datos específicos de su contenido, como textos, imágenes o enlaces. Esta práctica es útil en diversas áreas, como la investigación, el análisis de mercado y la monitorización de precios.</p>
+    </div>
+    <div class="container-sm">
+        <p>Es importante destacar que, aunque el web scraping facilita la recolección de datos, su uso debe ser responsable y ético. Algunos sitios web prohíben esta práctica en sus términos de servicio. Además, la extracción de datos sin autorización puede infringir derechos de propiedad intelectual o privacidad. Por lo tanto, es esencial revisar las políticas del sitio y asegurarse de cumplir con las normativas legales vigentes antes de implementar técnicas de scraping.</p>
+    </div>
+    <div class="container-sm">
+        <div class="row">
+            <!-- Primer Placeholder -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Aspectos Legales
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            El web scraping debe realizarse respetando los términos de servicio de los sitios web y las leyes de propiedad intelectual. Es importante obtener permisos cuando sea necesario y no extraer datos personales sin autorización.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Segundo Placeholder -->
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Consideraciones Éticas
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Al realizar web scraping, es fundamental respetar la privacidad de los usuarios, no sobrecargar los servidores y usar los datos de manera responsable. Se recomienda identificarse apropiadamente y seguir las políticas de uso justo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Herramientas para el Scraping</h2>
+    <ol class="list-group list-group-numbered container-sm">
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <div class="fw-bold">BeautifulSoup</div>
+            <p>Es una biblioteca de Python que ayuda a analizar y extraer datos de HTML y XML. Es fácil de usar y buena para páginas web estáticas.</p>
+        </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <div class="fw-bold">Scrapy</div>
+            <p>Es un framework en Python para scraping. Es más avanzado y permite crear "arañas" que navegan en sitios web y recogen datos. Es útil para proyectos grandes.</p>
+        </div>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <div class="ms-2 me-auto">
+            <div class="fw-bold">Selenium</div>
+            <p>Es una herramienta para automatizar navegadores. Aunque se usa más para pruebas, también sirve para scraping, especialmente en páginas que cargan datos con JavaScript.</p>
+        </div>
+        </li>
+    </ol>
+    <div class="contenedorH2">
+        <h2 class="tablaComparacion">Tabla de comparacion</h2>
+    </div>
+    <table class="table table-striped table-bordered table-hover container-sm">
+        <thead>
+        <tr>
+            <th scope="col">Herramienta</th>
+            <th scope="col">Lenguaje</th>
+            <th scope="col">Uso principal</th>
+            <th scope="col">Facilidad de uso</th>
+            <th scope="col">Escalabilidad</th>
+            <th scope="col">Paginas Dinamicas</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">BeautifulSoup</th>
+            <td>Python</td>
+            <td>Extraer datos de HTML</td>
+            <td>Facil</td>
+            <td>No</td>
+            <td>No</td>
+        </tr>
+        <tr>
+            <th scope="row">Scrapy</th>
+            <td>Python</td>
+            <td>Scraping avanzado y automatizado</td>
+            <td>Medio</td>
+            <td>Si</td>
+            <td>Si</td>
+        </tr>
+        <tr>
+            <th scope="row">Selenium</th>
+            <td>Python</td>
+            <td>Automatizacion de navegadores</td>
+            <td>Dificil</td>
+            <td>Si</td>
+            <td>Si</td>
+        </tr>
+        </tbody>
+    </table>
+    <div class="contenedorH2">
+        <h2>Tutoriales</h2>  
+    </div>
+    <div class="contenedorGrid container-sm">
+        <div class="itemGrid">
+            <h3>Concepto basico del scraping</h3>
+            <a href="https://www.youtube.com/watch?v=gyai5HaqPcI" target="_blank">
+                <img src="imagenes/What-is-Web-Scraping-and-How-to-Use-It.webp" alt="Que es el Scraping" title="Concepto basico del Scraping">
+                </a>
+        </div>
+        <div class="itemGrid">
+            <h3>Tutorial de BeautifulSoup</h3>
+            <a href="https://youtu.be/yKi9-BfbfzQ?si=4fsCLzE1Y2yv9Z47" target="_blank">
+                <img src="imagenes/Beautiful.png" alt="Video tutorial de BeautifulSoup" title="Video tutorial de BeautifulSoup">
+            </a>
+        </div>
+        <div class="itemGrid">
+            <h3>Tutorial de Scrapy</h3>
+            <a href="https://www.youtube.com/watch?v=YZerNLdCKmE" target="_blank">
+                <img src="imagenes/Scrapy.png" alt="Video tutorial de Scrapy" title="Video tutorial de Scrapy">
+            </a>
+        </div>
+        <div class="itemGrid">
+            <h3>Tutorial de Selenium</h3>
+            <a href="https://www.youtube.com/watch?v=AjTpmMw-Pe4&list=PLas30d-GGNa2UW9-1H-NCNrUocvWD9cyh&index=1" target="_blank">
+                <img src="imagenes/Selenium.png" alt="Video tutorial de Selenium" title="Video tutorial de Selenium">
+            </a>
+        </div>
+    </div>
+    <div class="contenedorH2">
+        <h2>Videos educativos y ubicacion de la UNPHU</h2>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- Video de Programación Web -->
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/ELSm-G201Ls?si=nfvyGbZCsYng8KAI" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="carousel-item">
+                <!-- Video de Bootstrap -->
+                <iframe width="100%" height="500" src="https://www.youtube.com/embed/QCw0L6FupQ0?si=tkDwfc3krtKsQpoi" 
+                    title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="carousel-item">
+                <!-- Mapa UNPHU -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3783.9719293698686!2d-69.95105131418225!3d18.484930655299298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f362e578d3%3A0x19d59fe09af95898!2sUniversidad%20Nacional%20Pedro%20Henr%C3%ADquez%20Ure%C3%B1a!5e0!3m2!1sen!2sdo!4v1739141334883!5m2!1sen!2sdo" 
+                    width="100%" height="500" style="border:0;" 
+                    allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <button type="button" class="btn btn-primary" id="liveAlertBtn">Comprobar Pagina Web</button>
+        <div id="liveAlertPlaceholder"></div>
+    <!-- Button trigger modal -->
+    <button type="button" class="botonModal btn btn-primary" data-bs-toggle="modal" data-bs-target="#terminosModal">
+        Terminos y condiciones
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="terminosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Terminos y condiciones</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>Cumplir con las leyes de propiedad intelectual</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Aceptar terminos y condiciones</button>
+            </div>
+            </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="javascript/Alerta.js"></script>
+    <script src="javascript/Modal.js"></script>
+</body>
+</html>

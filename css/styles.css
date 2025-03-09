@@ -1,0 +1,146 @@
+
+.h1_Container {
+    margin-top: 60px;
+}
+
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.nav-item:hover {
+    background-color: #808080;
+}
+
+#liveAlertBtn {
+    text-align: end;
+    font-size: 16px;
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+}
+
+#liveAlertPlaceholder {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+}
+
+.scrapingContainer {
+    text-align: center;
+}
+
+.img {
+    width: 400px;
+    height: 400px;
+}
+
+p1 {
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card {
+    margin: 20px 0;
+    border: 1px solid #ddd;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: white;
+}
+
+
+.tablaComparacion {
+    text-align: center;
+}
+
+.contenedorH2 {
+    margin: 20px 20px;
+}
+
+h2 {
+    text-align: center;
+    color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
+}
+
+.itemGrid {
+    text-align: center;
+    margin: 20px 20px;
+
+}
+.contenedorGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: rgba(25, 126, 221, 0.658);
+    border-radius: 60px;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 60px;
+}
+
+.itemGrid:hover {
+    color: green;
+}
+
+.videoContainer {
+    text-align: center;
+}
+
+.mapContainer {
+    text-align: center;
+}
+
+iframe {
+    border-radius: 16px;
+    
+}
+
+.botonModal {
+    justify-content: start;
+    font-size: 16px;
+    position: fixed;
+    bottom: 20px;
+    left: 5px;
+} 
+
+.carousel {
+    margin: 40px auto;
+    max-width: 1000px;
+}
+
+.carousel-item {
+    border-radius: 16px;
+    background-color: #000;
+}
+
+.carousel-item iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: red;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+
+.carousel-indicators button {
+    background-color: red !important;
+}
+
+
