@@ -1,0 +1,10 @@
+.nav-item:hover {
+    background-color: #808080;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
+    vertical-align: middle;
+} 

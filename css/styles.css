@@ -1,4 +1,3 @@
-
 .h1_Container {
     margin-top: 60px;
 }
@@ -7,7 +6,6 @@ h1 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 
 .nav-item:hover {
     background-color: #808080;
@@ -51,7 +49,6 @@ p1 {
     color: white;
 }
 
-
 .tablaComparacion {
     text-align: center;
 }
@@ -74,8 +71,8 @@ p {
 .itemGrid {
     text-align: center;
     margin: 20px 20px;
-
 }
+
 .contenedorGrid {
     display: grid;
     grid-template-columns: auto auto;
@@ -105,7 +102,6 @@ img {
 
 iframe {
     border-radius: 16px;
-    
 }
 
 .botonModal {
@@ -114,7 +110,7 @@ iframe {
     position: fixed;
     bottom: 20px;
     left: 5px;
-} 
+}
 
 .carousel {
     margin: 40px auto;
@@ -137,7 +133,6 @@ iframe {
     border-radius: 50%;
     padding: 20px;
 }
-
 
 .carousel-indicators button {
     background-color: red !important;
