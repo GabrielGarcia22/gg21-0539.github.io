@@ -62,7 +62,7 @@
     </div>
     <div class="container-sm">
         <div class="row">
-            <!-- Primer Placeholder -->
+            
             <div class="col-md-6">
                 <div class="card mb-4">
                     <div class="card-header">
@@ -75,7 +75,7 @@
                     </div>
                 </div>
             </div>
-            <!-- Segundo Placeholder -->
+            
             <div class="col-md-6">
                 <div class="card mb-4">
                     <div class="card-header">
@@ -157,7 +157,7 @@
     </div>
     <div class="container-fluid py-4 tutorial-section">
         <div class="row g-4">
-            <!-- Tutorial de Conceptos Básicos -->
+            
             <div class="col-md-6 col-lg-3">
                 <div class="card h-100 tutorial-card">
                     <img src="imagenes/What-is-Web-Scraping-and-How-to-Use-It.webp" class="card-img-top tutorial-img" alt="Que es el Scraping" title="Concepto basico del Scraping">
@@ -169,7 +169,7 @@
                 </div>
             </div>
             
-            <!-- Tutorial de BeautifulSoup -->
+            
             <div class="col-md-6 col-lg-3">
                 <div class="card h-100 tutorial-card">
                     <img src="imagenes/Beautiful.png" class="card-img-top tutorial-img" alt="Video tutorial de BeautifulSoup" title="Video tutorial de BeautifulSoup">
@@ -181,7 +181,7 @@
                 </div>
             </div>
             
-            <!-- Tutorial de Scrapy -->
+            
             <div class="col-md-6 col-lg-3">
                 <div class="card h-100 tutorial-card">
                     <img src="imagenes/Scrapy.png" class="card-img-top tutorial-img" alt="Video tutorial de Scrapy" title="Video tutorial de Scrapy">
@@ -193,7 +193,7 @@
                 </div>
             </div>
             
-            <!-- Tutorial de Selenium -->
+            
             <div class="col-md-6 col-lg-3">
                 <div class="card h-100 tutorial-card">
                     <img src="imagenes/Selenium.png" class="card-img-top tutorial-img" alt="Video tutorial de Selenium" title="Video tutorial de Selenium">
@@ -207,57 +207,62 @@
         </div>
     </div>
     <div class="contenedorH2">
-        <h2>Videos educativos y ubicacion de la UNPHU</h2>
+        <h2>Videos Educativos</h2>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <div class="container-fluid py-4">
+        <div id="carouselExampleIndicators" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner rounded-4 shadow">
+                <div class="carousel-item active">
+                    <div class="video-container">
+                        <iframe width="100%" height="500" src="https://www.youtube.com/embed/ELSm-G201Ls?si=nfvyGbZCsYng8KAI" 
+                            title="Introducción a la Programación Web" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Introducción a la Programación Web</h5>
+                            <p>Aprende los fundamentos de la programación web moderna</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="video-container">
+                        <iframe width="100%" height="500" src="https://www.youtube.com/embed/QCw0L6FupQ0?si=tkDwfc3krtKsQpoi" 
+                            title="Tutorial de Bootstrap" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowfullscreen>
+                        </iframe>
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tutorial de Bootstrap</h5>
+                            <p>Descubre cómo crear sitios web responsivos con Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <!-- Video de Programación Web -->
-                <iframe width="100%" height="500" src="https://www.youtube.com/embed/ELSm-G201Ls?si=nfvyGbZCsYng8KAI" 
-                    title="YouTube video player" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                </iframe>
-            </div>
-            <div class="carousel-item">
-                <!-- Video de Bootstrap -->
-                <iframe width="100%" height="500" src="https://www.youtube.com/embed/QCw0L6FupQ0?si=tkDwfc3krtKsQpoi" 
-                    title="YouTube video player" frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-                </iframe>
-            </div>
-            <div class="carousel-item">
-                <!-- Mapa UNPHU -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3783.9719293698686!2d-69.95105131418225!3d18.484930655299298!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf89f362e578d3%3A0x19d59fe09af95898!2sUniversidad%20Nacional%20Pedro%20Henr%C3%ADquez%20Ure%C3%B1a!5e0!3m2!1sen!2sdo!4v1739141334883!5m2!1sen!2sdo" 
-                    width="100%" height="500" style="border:0;" 
-                    allowfullscreen="" loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
     </div>
     <button type="button" class="btn btn-primary" id="liveAlertBtn">Comprobar Pagina Web</button>
         <div id="liveAlertPlaceholder"></div>
-    <!-- Button trigger modal -->
+    
     <button type="button" class="botonModal btn btn-primary" data-bs-toggle="modal" data-bs-target="#terminosModal">
         Terminos y condiciones
     </button>
     
-    <!-- Modal -->
+    
     <div class="modal fade" id="terminosModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
         <div class="modal-content">
@@ -279,17 +284,17 @@
     <script src="javascript/Alerta.js"></script>
     <script src="javascript/Modal.js"></script>
 
-    <!-- Footer -->
+    
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <!-- Columna de Información -->
+                
                 <div class="col-md-4 mb-4">
                     <h3>Sobre ScrapingWeb</h3>
                     <p>Tu fuente de información sobre web scraping, automatización y extracción de datos. Aprende las mejores técnicas y herramientas del mercado.</p>
                 </div>
                 
-                <!-- Columna de Enlaces Rápidos -->
+                
                 <div class="col-md-4 mb-4">
                     <h3>Enlaces Rápidos</h3>
                     <ul class="footer-links">
@@ -300,7 +305,7 @@
                     </ul>
                 </div>
                 
-                <!-- Columna de Contacto -->
+                
                 <div class="col-md-4 mb-4">
                     <h3>Contacto</h3>
                     <p>¿Tienes preguntas? ¡Contáctanos!</p>
@@ -308,7 +313,7 @@
                 </div>
             </div>
             
-            <!-- Iconos de Redes Sociales -->
+            
             <div class="social-icons">
                 <a href="https://twitter.com/" target="_blank" title="Twitter/X"><i class="fab fa-twitter"></i></a>
                 <a href="https://facebook.com/" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
@@ -318,7 +323,7 @@
                 <a href="mailto:gg21-0539@unphu.edu.do" title="Email"><i class="fas fa-envelope"></i></a>
             </div>
             
-            <!-- Copyright -->
+            
             <div class="footer-bottom">
                 <p>&copy; 2025 ScrapingWeb. Todos los derechos reservados.</p>
             </div>
