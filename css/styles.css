@@ -1,5 +1,5 @@
 .h1_Container {
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
 h1 {
@@ -169,6 +169,34 @@ iframe {
 .carousel-control-prev:hover,
 .carousel-control-next:hover {
     opacity: 1;
+}
+
+.table-responsive-sm {
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    margin-bottom: 0;
+    background-color: white;
+}
+
+.table th, .table td {
+    padding: 1rem;
+    vertical-align: middle;
+}
+
+@media (max-width: 576px) {
+    .table th, .table td {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+    
+    .table {
+        min-width: 500px;
+    }
 }
 
 
