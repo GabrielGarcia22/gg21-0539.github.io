@@ -1,24 +1,34 @@
-.h1_Container {
-    margin-top: 60px;
+body {
+    font-family: 'Space Grotesk', sans-serif;
 }
 
-h1 {
+code, pre, .mono {
+    font-family: 'Geist Mono', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2 {
-    text-align: center;
     color: #2B3784;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 2rem 0;
 }
 
 p {
     text-align: justify;
-    font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
 }
 
+.navbar-brand {
+    font-family: 'Geist Mono', monospace;
+    font-weight: 500;
+}
+
+.h1_Container {
+    margin-top: 60px;
+}
 
 .container-sm {
     margin: 20px auto;
@@ -33,14 +43,8 @@ p {
     text-align: center;
 }
 
-
 .img {
     width: 400px;
     height: 400px;
-}
-
-img {
-    width: 150px;
-    height: 150px;
     border-radius: 60px;
 }

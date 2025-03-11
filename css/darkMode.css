@@ -1,0 +1,42 @@
+[data-bs-theme="dark"] {
+    --bs-body-bg: #212529;
+    --bs-body-color: #fff;
+}
+
+[data-bs-theme="light"] {
+    --bs-body-bg: #fff;
+    --bs-body-color: #212529;
+}
+
+.dark-mode-btn {
+    border: none;
+    background: transparent;
+    color: #fff;
+    padding: 8px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.dark-mode-btn:hover {
+    transform: scale(1.1);
+}
+
+[data-bs-theme="dark"] .card {
+    background-color: #2b3035;
+    color: #fff;
+}
+
+[data-bs-theme="dark"] .card-text {
+    color: #e9ecef;
+}
+
+[data-bs-theme="dark"] h1,
+[data-bs-theme="dark"] h2,
+[data-bs-theme="dark"] h3 {
+    color: #fff;
+}
+
+[data-bs-theme="dark"] p {
+    color: #e9ecef;
+} 
