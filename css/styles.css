@@ -1,5 +1,5 @@
 .h1_Container {
-    margin-top: 70px;
+    margin-top: 60px;
 }
 
 h1 {
@@ -7,79 +7,11 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.nav-item:hover {
-    background-color: #808080;
-}
-
-#liveAlertBtn {
-    text-align: end;
-    font-size: 16px;
-    position: fixed;
-    bottom: 20px;
-    right: 5px;
-}
-
-#liveAlertPlaceholder {
-    position: fixed;
-    bottom: 50px;
-    right: 20px;
-}
-
-.scrapingContainer {
-    text-align: center;
-}
-
-.img {
-    width: 400px;
-    height: 400px;
-}
-
-p1 {
-    text-align: justify;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.card {
-    margin: 20px 0;
-    border: 1px solid #ddd;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
-}
-
-.card .fa-3x {
-    color: #2B3784;
-    transition: transform 0.3s ease;
-}
-
-.card:hover .fa-3x {
-    transform: scale(1.1);
-}
-
-.card-body {
-    padding: 1.5rem;
-}
-
-.card-header {
-    background-color: #007bff;
-    color: white;
-}
-
-.tablaComparacion {
-    text-align: center;
-}
-
-.contenedorH2 {
-    margin: 20px 20px;
-}
-
 h2 {
     text-align: center;
-    color: aqua;
+    color: #2B3784;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 2rem 0;
 }
 
 p {
@@ -87,18 +19,24 @@ p {
     font-family: 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
 }
 
-.itemGrid {
-    text-align: center;
+
+.container-sm {
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.contenedorH2 {
     margin: 20px 20px;
 }
 
-.contenedorGrid {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-gap: 10px;
-    background-color: rgba(25, 126, 221, 0.658);
-    border-radius: 60px;
-    margin-bottom: 20px;
+.scrapingContainer {
+    text-align: center;
+}
+
+
+.img {
+    width: 400px;
+    height: 400px;
 }
 
 img {
@@ -106,116 +44,3 @@ img {
     height: 150px;
     border-radius: 60px;
 }
-
-.itemGrid:hover {
-    color: green;
-}
-
-.videoContainer {
-    text-align: center;
-}
-
-.mapContainer {
-    text-align: center;
-}
-
-iframe {
-    border-radius: 16px;
-}
-
-.botonModal {
-    justify-content: start;
-    font-size: 16px;
-    position: fixed;
-    bottom: 20px;
-    left: 5px;
-}
-
-.carousel {
-    margin-bottom: 4rem;
-    background: rgba(25, 126, 221, 0.1);
-    padding: 2rem;
-    border-radius: 1rem;
-}
-
-.carousel-inner {
-    border-radius: 1rem;
-    overflow: hidden;
-}
-
-.video-container {
-    position: relative;
-    background: #000;
-}
-
-.carousel-caption {
-    background: rgba(0, 0, 0, 0.7);
-    border-radius: 1rem;
-    padding: 1rem;
-    bottom: 2rem;
-}
-
-.carousel-caption h5 {
-    color: #fff;
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.carousel-caption p {
-    color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    margin-bottom: 0;
-}
-
-.carousel-indicators {
-    bottom: -3rem;
-}
-
-.carousel-indicators button {
-    background-color: #2B3784 !important;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    margin: 0 5px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    width: 5%;
-    opacity: 0.8;
-}
-
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-    opacity: 1;
-}
-
-.table-responsive-sm {
-    margin-bottom: 2rem;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-.table {
-    margin-bottom: 0;
-    background-color: white;
-}
-
-.table th, .table td {
-    padding: 1rem;
-    vertical-align: middle;
-}
-
-@media (max-width: 576px) {
-    .table th, .table td {
-        padding: 0.5rem;
-        font-size: 0.9rem;
-    }
-    
-    .table {
-        min-width: 500px;
-    }
-}
-
-
